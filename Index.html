@@ -1,0 +1,837 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>Indlela Group</title>
+<meta name="description" content="ICT Solutions
+Construction
+Housing
+Debt Collectors
+Security
+Communications 
+NWET
+Finance
+Risk">
+<meta name="keywords" content="Indlela Group Matlosana Klerksdorp ">
+<meta name="author" content="Byrone Malay">
+<meta name="generator" content="BuddySoft Systems  www.BuddySoft.co.za">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="group_logo2_nvu_icon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="Group-logo2.PNG" rel="icon" sizes="1000x1000" type="image/png">
+<link href="Group-logo2.PNG" rel="icon" sizes="1000x1000" type="image/png">
+<link href="css/base/jquery-ui.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/IndlelaGroup.css" rel="stylesheet">
+<link href="css/Index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="util.min.js"></script>
+<script src="carousel.min.js"></script>
+<script src="wb.animatetext.min.js"></script>
+<script src="wb.slideshow.min.js"></script>
+<script src="wb.photocollage.min.js"></script>
+<script src="wb.conveyerbelt.min.js"></script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>   
+   var features = 'toolbar=yes,menubar=yes,location=no,scrollbars=yes,resizable=yes,status=no,left=800,top=800,width=800,height=800';
+   function searchPage(features)
+   {
+      var element = document.getElementById('SiteSearch1');
+      window.open('sitesearch1-results.html?q='+encodeURIComponent(element.value), 'InlineFrame1', features);
+      return false;
+   }
+</script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="wwb15.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      searchParseURL('SiteSearch1');
+      $("a[href*='#todoCards']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_todoCards').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#contactForm']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contactForm').offset().top }, 600, 'easeInSine');
+      });
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("#attractionsCarousel").on('slid.bs.carousel', function(e)
+      {
+         var index = $(e.relatedTarget).index();
+         switch(index)
+         {
+            case 0:
+               $('#Carousel2').bootstrapcarousel(0);
+               break;
+            case 1:
+               $('#Carousel2').bootstrapcarousel(1);
+               break;
+            case 2:
+               $('#Carousel2').bootstrapcarousel(2);
+               break;
+            case 3:
+               $('#Carousel2').bootstrapcarousel(3);
+               break;
+         }
+      });
+      $("#attractionsCarousel").bootstrapcarousel({interval:7500, pause: false});
+      $("#ThemeableMenu1").menu(
+      {
+         icons: { submenu: 'ui-arrow' },
+         position: { using: setSubMenu }
+      });
+      function setSubMenu(position, elements)
+      {
+         var options = { of: elements.target.element };
+         if (elements.element.element.parent().parent().attr('id') === 'ThemeableMenu1')
+         {
+            options.my = 'left top';
+            options.at = 'left bottom';
+         }
+         else
+         {
+            options.my = 'left top';
+            options.at = 'right top';
+         }
+         elements.element.element.position(options);
+      }
+      $("#Banner1").animatetext({showDelay: 50, hideDelay: 50, showMode: 0, hideMode: 2, pause: 500});
+      $("#SlideShow1").slideshow(
+      {
+         interval: 6500,
+         type: 'random',
+         effect: 'puff',
+         direction: '',
+         pagination: false,
+         fullscreen: 0,
+         maxWidth: 1920,
+         effectlength: 2000
+      });
+      $("a[data-rel='PhotoCollage1']").attr('rel', 'PhotoCollage1');
+      $("a[rel^='PhotoCollage1']").fancybox({});
+      $("#PhotoCollage1").photocollage({ effect: 'scale', duration: 600, padding: 3, lazyload: true, matrix: '2,0,1,0,0,1,1,1,1' });
+      $("#SlideShow2").conveyerbelt({speed:2, spacing: 1});
+      $("#Carousel3").on('slid.bs.carousel', function(e)
+      {
+         var index = $(e.relatedTarget).index();
+         switch(index)
+         {
+            case 0:
+               AnimateCss('welcomeText1', 'slide-left-in', 300, 1000);
+               AnimateCss('welcomeText2', 'slide-right-in', 1000, 1000);
+               AnimateCss('welcomeButton1', 'swash-in', 2000, 1000);
+               break;
+            case 1:
+               AnimateCss('welcomeText3', 'scale-in-horizontal-center', 300, 1000);
+               AnimateCss('welcomeText4', 'scale-in-vertical-center', 1000, 1000);
+               AnimateCss('welcomeButton2', 'twister-down-in', 2000, 1000);
+               break;
+            case 2:
+               AnimateCss('welcomeText5', 'transform-rotate-in', 300, 1000);
+               AnimateCss('welcomeButton3', 'vanish-in', 2000, 1000);
+               break;
+            case 5:
+               AnimateCss('welcomeText6', 'transform-roll-in', 1000, 1000);
+               break;
+         }
+      });
+      $("#Carousel3").bootstrapcarousel({interval:6000, pause: false});
+   });
+</script>
+</head>
+<body>
+   <div id="wb_navigation">
+      <div id="navigation-overlay"></div>
+      <div id="navigation">
+         <div class="row">
+            <div class="col-1">
+               <picture id="wb_Picture1" style="display:block;width:100%;height:266px;z-index:1">
+                  <img src="images/indlela-group-logo.png" id="Picture1" alt="" srcset="">
+               </picture>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid3">
+      <div id="LayoutGrid3-overlay"></div>
+      <div id="LayoutGrid3">
+         <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-3">
+               <div id="wb_Text1">
+                  <p style="color:#000000;"><span style="color:#000000;">Share</span></p>
+               </div>
+<!-- Google+ -->
+               <div id="Html4" style="display:inline-block;width:51px;height:52px;z-index:3">
+<!-- Google+ -->
+                  <a href="https://plus.google.com/share?url=http://www.indlelagroup.com/" target="_blank">
+                     <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google"/>
+                  </a></div>
+<!-- Facebook -->
+               <div id="Html5" style="display:inline-block;width:50px;height:52px;z-index:4">
+<!-- Facebook -->
+                  <a href="http://www.facebook.com/sharer.php?u=http://www.indlelagroup.com" target="_blank">
+                     <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook"/>
+                  </a></div>
+<!-- LinkedIn -->
+               <div id="Html6" style="display:inline-block;width:50px;height:52px;z-index:5">
+    <!-- LinkedIn -->
+                  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.indlelagroup.com" target="_blank">
+                     <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn"/>
+                  </a></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5-overlay"></div>
+      <div id="LayoutGrid5">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_Heading11" style="display:inline-block;width:100%;z-index:6;">
+                     <h2 id="Heading11">Indlela Data is a ICT Company Focusing on complex IT systems integration and Print Management and was the cornerstone for Indlela Group of companies.</h2>
+                  </div>
+                  <div id="wb_FontAwesomeIcon6" style="display:inline-block;width:33px;height:31px;text-align:center;z-index:7;">
+                     <a href="./Index.htm" title="Home"><div id="FontAwesomeIcon6"><i class="fa fa-home"></i></div></a>
+                  </div>
+                  <a id="Button1" href="./Index.htm#contactForm" style="display:inline-block;width:94px;height:24px;z-index:8;">Contact Us!</a>
+               </div>
+            </div>
+            <div class="col-2">
+               <picture id="wb_Picture39" style="display:block;width:calc(100% - -20px);height:115px;z-index:9">
+                  <img src="images/TinyTile.scale-200_contrast-white.png" id="Picture39" alt="" srcset="">
+               </picture>
+               <a id="Button5" href="./Log-a-Call.htm" style="display:inline-block;width:147px;height:35px;z-index:10;">Log a Call to Fix it All </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid4">
+      <div id="LayoutGrid4">
+         <div class="row">
+            <div class="col-1">
+               <hr id="Line2" style="display:block;width:100%;z-index:11;">
+               <div id="wb_ThemeableMenu1" style="display:inline-block;width:calc(100% - -5px);z-index:1012;">
+                  <ul id="ThemeableMenu1">
+                     <li><div><a href="./Index.htm#banner" target="_self" title="ABOUT">ABOUT</a></div></li>
+                     <li><div><a href="./Log-a-Call.htm" target="_self" title="LOG A CALL TO FIX IT ALL">LOG&nbsp;A&nbsp;CALL&nbsp;TO&nbsp;FIX&nbsp;IT&nbsp;ALL</a></div></li>
+                     <li><div><a href="" target="_self" title="INDLELA GROUP OF COMPANIES">INDLELA&nbsp;GROUP&nbsp;OF&nbsp;COMPANIES</a></div>
+                        <ul>
+                           <li class="ui-menu-divider"></li>
+                           <li><div><a href="./Index.htm" target="_self" title="Indlela DATA">Indlela&nbsp;DATA</a></div></li>
+                           <li><div><a href="./Communications.htm" target="_self" title="Indlela Communications ">Indlela&nbsp;Communications&nbsp;</a></div></li>
+                           <li><div><a href="./Finance.htm" target="_self" title="Indlela Finance">Indlela&nbsp;Finance</a></div></li>
+                           <li><div><a href="./Property.htm" target="_self" title="Indlela Property">Indlela&nbsp;Property</a></div></li>
+                           <li><div><a href="./Security.htm" target="_self" title="Entabeni Security">Entabeni&nbsp;Security</a></div></li>
+                           <li><div><a href="./Construction.htm" target="_self" title="Egweni Construction">Egweni&nbsp;Construction</a></div></li>
+                           <li><div><a href="./Amend-debt.htm" target="_self" title="Amend Debt Collectors">Amend&nbsp;Debt&nbsp;Collectors</a></div></li>
+                           <li><div><a href="http://www.nwet.co.za/" target="_blank" title="NWET">NWET</a></div></li>
+                        </ul>
+                     </li>
+                     <li><div><a href="./Log-a-Call.htm" target="_self" title="CONTACT US">CONTACT&nbsp;US</a></div></li>
+                     <li><div><a href="./Online-Store.htm" target="_self" title="INDLELA STORE">INDLELA&nbsp;STORE</a></div></li>
+                  </ul>
+               </div>
+               <hr id="Line1" style="display:block;width:100%;z-index:13;">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1-overlay"></div>
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_Heading9" style="display:inline-block;width:100%;z-index:14;">
+                     <h2 id="Heading9">Vision statement</h2>
+                  </div>
+                  <div id="wb_Heading7" style="display:inline-block;width:100%;z-index:15;">
+                     <h2 id="Heading7">Merging advanced ITC infrastructure to streamline business processes and enable businesses to be more efficient.<br></h2>
+                  </div>
+                  <div id="wb_Heading8" style="display:inline-block;width:100%;z-index:16;">
+                     <h2 id="Heading8">Accreditations</h2>
+                  </div>
+                  <picture id="wb_Picture4" style="display:block;width:100%;height:87px;z-index:17">
+                     <img src="images/microsoft-partner-.PNG" id="Picture4" alt="" srcset="">
+                  </picture>
+                  <picture id="wb_Picture5" style="display:block;width:100%;height:81px;z-index:18">
+                     <img src="images/indlela-eSset.png" id="Picture5" alt="" srcset="">
+                  </picture>
+                  <picture id="wb_Picture3" style="display:block;width:100%;height:107px;z-index:19">
+                     <img src="images/lenovo-300x246.png" id="Picture3" alt="" srcset="">
+                  </picture>
+                  <picture id="wb_Picture7" style="display:block;width:100%;height:85px;z-index:20">
+                     <img src="images/sophos.PNG" id="Picture7" alt="" srcset="">
+                  </picture>
+                  <picture id="wb_Picture8" style="display:block;width:100%;height:120px;z-index:21">
+                     <img src="images/step-e.PNG" id="Picture8" alt="" srcset="">
+                  </picture>
+                  <picture id="wb_Picture9" style="display:block;width:100%;height:89px;z-index:22">
+                     <img src="images/toshiba-logo-3.png" id="Picture9" alt="" srcset="">
+                  </picture>
+                  <a id="Button3" href="./Index.htm#attractions" style="display:inline-block;width:94px;height:23px;z-index:23;">And More...</a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="Banner1" style="display:inline-block;width:441px;height:48px;z-index:24"><span>Showing you the way forward</span></div>
+               <div id="Html1" style="display:inline-block;width:361px;height:119px;z-index:25">
+                  <iframe width="380" height="240" src="https://www.youtube.com/embed/w-tFdreZB94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+               <div id="wb_Heading4" style="display:inline-block;width:100%;z-index:26;">
+                  <h2 id="Heading4">Services</h2>
+               </div>
+               <div id="wb_Heading6" style="display:inline-block;width:100%;z-index:27;">
+                  <h2 id="Heading6">IT Risk Management<br>Consultancy<br>Networking infrastructure planning and implementation<br>Print management<br>Information Security analysis and implementation<br>IT service level agreements<br>Managed document solutions<br>Enterprise server deployment and management<br>Datacentre design and implementation<br>Backup Solutions<br>Desktop support<br>Financial System Design and implementation<br>Web design<br>Payroll Solutions</h2>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" style="display:inline" onsubmit="return searchPage(features)">
+                     <input type="text" id="SiteSearch1" style="display:block;width:100%;height:26px;z-index:28;" name="SiteSearch1" value="" spellcheck="false" placeholder="Search this website" role="searchbox"></form>
+                  <input type="button" id="Button6" onclick="searchPage();return false;" name="Search" value="Search" style="display:inline-block;width:96px;height:25px;z-index:29;">
+                  <picture id="wb_Picture6" style="display:block;width:100%;height:76px;z-index:30">
+                     <img src="images/ncr-logo4.png" id="Picture6" alt="" srcset="">
+                  </picture>
+                  <div id="wb_planTripHeading" style="display:inline-block;width:100%;z-index:31;">
+                     <h2 id="planTripHeading">Mission statement</h2>
+                  </div>
+                  <div id="wb_Heading10" style="display:inline-block;width:100%;z-index:32;">
+                     <h2 id="Heading10">To be the benchmark supplier of IT goods and services on the African Continent by using our consultancy methodology and addressing key critical issues that are burdening the business bottom line.</h2>
+                  </div>
+                  <div id="wb_Heading3" style="display:inline-block;width:100%;z-index:33;">
+                     <h2 id="Heading3">We Care!</h2>
+                  </div>
+                  <div id="wb_PhotoCollage1" style="display:inline-block;width:100%;z-index:34;">
+                     <div id="PhotoCollage1">
+                        <div class="thumbnails">
+                           <figure class="thumbnail">
+                              <a href="images/66797560_1079201988940483_7567343105486094336_n.jpg" data-rel="PhotoCollage1"><img alt="" src="images/66797560_1079201988940483_7567343105486094336_n.jpg"></a>
+                           </figure>
+                           <figure class="thumbnail">
+                              <a href="images/28617257_778794692314549_8608826152615710071_o.jpg" data-rel="PhotoCollage1"><img alt="" src="images/28617257_778794692314549_8608826152615710071_o.jpg"></a>
+                           </figure>
+                           <figure class="thumbnail">
+                              <a href="images/18486146_652090928318260_3074948828491846310_n.jpg" data-rel="PhotoCollage1"><img alt="" src="images/18486146_652090928318260_3074948828491846310_n.jpg"></a>
+                           </figure>
+                           <figure class="thumbnail">
+                              <a href="images/20819634_696949863832366_7779818115436807730_o.jpg" data-rel="PhotoCollage1"><img alt="" src="images/20819634_696949863832366_7779818115436807730_o.jpg"></a>
+                           </figure>
+                           <figure class="thumbnail">
+                              <a href="images/21951018_710842325776453_8629480138630228593_o.jpg" data-rel="PhotoCollage1"><img alt="" src="images/21951018_710842325776453_8629480138630228593_o.jpg"></a>
+                           </figure>
+                           <figure class="thumbnail">
+                              <a href="images/28872885_778800635647288_6252673901012796350_n.jpg" data-rel="PhotoCollage1"><img alt="" src="images/28872885_778800635647288_6252673901012796350_n.jpg"></a>
+                           </figure>
+                        </div>
+                     </div>
+                  </div>
+                  <a id="Button4" href="./Index.htm#welcome" style="display:inline-block;width:94px;height:23px;z-index:35;">View More...</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_banner">
+      <div id="banner-overlay"></div>
+      <div id="banner">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_bannerHeading1" style="display:inline-block;width:100%;z-index:36;">
+                     <h2 id="bannerHeading1">About Indlela Group</h2>
+                  </div>
+                  <div id="wb_Heading12" style="display:inline-block;width:100%;z-index:37;">
+                     <h2 id="Heading12">BOLD SOLUTIONS & BOTTOM LINE RESULTS</h2>
+                  </div>
+                  <a id="bannerButton" href="https://www.delft.com/explore-delft/" target="_blank" onclick="ShowObjectWithEffect('wb_bannerHeading2', 1, '', 0);ShowObjectWithEffect('bannerButton', 0, '', 0);ShowObjectWithEffect('wb_IconFont7', 1, '', 0);return false;" style="display:inline-block;width:135px;height:31px;z-index:38;">Read More...</a>
+                  <div id="wb_bannerHeading2" style="display:none;width:100%;z-index:39;">
+                     <h3 id="bannerHeading2">Indlela Group of companies is one of the leading companies in South Africa we focus on giving the correct solution at the correct price.<br><br>Our Consultancy methodology gives us the upper edge in the market because we focus on the burning issues in your business affecting the bottom line.<br><br>We firmly believe that the client comes first and we understand that in today’s economy each cent counts.<br><br>Let us at Indlela Group Show you the way forward.<br><br>ABOUT INDLELA GROUP OF COMPANIES<br>Indlela Group gives a broad range of solutions to our clients making us a one stop shop. Indlela group has a few Sister Companies that enable us to focus on core issues.<br><br>These sister companies gives us the capacity to focus on what needs to be done with the correct people and solutions for the job</h3>
+                  </div>
+                  <div id="wb_IconFont7" style="display:none;width:49px;height:40px;text-align:center;z-index:40;">
+                     <a href="#" onclick="ShowObjectWithEffect('bannerButton', 1, '', 0);ShowObjectWithEffect('wb_bannerHeading2', 0, '', 0);ShowObjectWithEffect('wb_IconFont7', 0, '', 0);return false;"><div id="IconFont7"><i class="material-icons">&#xe316;</i></div></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_todoCards">
+      <div id="todoCards">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <ul id="SlideShow1" style="display:inline-block;position:relative;width:483px;height:165px;z-index:41;">
+                     <li><img class="image" src="images/1.PNG" alt="" title=""></li>
+                     <li><img class="image" src="images/2.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/3.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/4.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/5.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/6.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/7.PNG" style="display:none;" alt="" title=""></li>
+                     <li><img class="image" src="images/8.PNG" style="display:none;" alt="" title=""></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <picture id="wb_Picture28" style="display:block;width:100%;height:137px;z-index:42">
+                     <img src="images/dell-laptops.png" id="Picture28" alt="" srcset="">
+                  </picture>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <picture id="wb_Picture10" style="display:block;width:100%;height:221px;z-index:43">
+                     <img src="images/girls_png6481.png" id="Picture10" alt="" srcset="">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_reviews">
+      <div id="reviews">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_reviewsHeading" style="display:inline-block;width:100%;z-index:44;">
+                  <h2 id="reviewsHeading">Indlela Group Companies </h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid7">
+      <div id="LayoutGrid7">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Carousel3" style="">
+                  <div id="Carousel3" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#Carousel3" data-slide-to="0" class="active"></li>
+                        <li data-target="#Carousel3" data-slide-to="1"></li>
+                        <li data-target="#Carousel3" data-slide-to="2"></li>
+                        <li data-target="#Carousel3" data-slide-to="3"></li>
+                        <li data-target="#Carousel3" data-slide-to="4"></li>
+                        <li data-target="#Carousel3" data-slide-to="5"></li>
+                        <li data-target="#Carousel3" data-slide-to="6"></li>
+                        <li data-target="#Carousel3" data-slide-to="7"></li>
+                        <li data-target="#Carousel3" data-slide-to="8"></li>
+                        <li data-target="#Carousel3" data-slide-to="9"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture29" style="display:block;width:100%;height:229px;z-index:45">
+                                 <img src="images/a1.png" id="Picture29" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text9">
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">Indlela Data is a ICT Company Focusing on complex IT systems integration </span></p>
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">and Print Management and was the cornerstone for Indlela Group of companies.</span></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture30" style="display:block;width:100%;height:310px;z-index:47">
+                                 <img src="images/a2.png" id="Picture30" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text8">
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">Indlela Communications is Company that focuses on Telecommunications and Data Services</span></p>
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">Workingon Wireless and Fibre networks and integrating these networks into voice and data</span></p>
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">services stretching over the howl of South Africa Indlela Communication </span></p>
+                                 <p style="font-size:20px;line-height:22.5px;color:#FFFFFF;"><span style="color:#FFFFFF;">(Communicating the way forward)</span></p>
+                                 <p>&nbsp;</p>
+                                 <p>&nbsp;</p>
+                              </div>
+                              <a href="./Communications.htm"><img src="images/img0003.jpg" id="Banner2" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:49;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture31" style="display:block;width:100%;height:262px;z-index:50">
+                                 <img src="images/a3.png" id="Picture31" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text10">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Indlela Finance is our Financial Muscle and with Indlela Finance we will make sure that your dreams will become reality by financing your dream to make sure tomorrow becomes today.</span></p>
+                              </div>
+                              <a href="./Finance.htm"><img src="images/img0011.jpg" id="Banner3" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:52;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture32" style="display:block;width:100%;height:232px;z-index:53">
+                                 <img src="images/a4.png" id="Picture32" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text11">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Entabeni Security is a company that give complex security solutions from Access Control to physical Security we will protect your assets and give you that well deserved sleep at night knowing you are safe and sound.</span></p>
+                              </div>
+                              <a href="./Security.htm"><img src="images/img0012.jpg" id="Banner4" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:55;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture33" style="display:block;width:calc(100% - -12px);height:236px;z-index:56">
+                                 <img src="images/a5.png" id="Picture33" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text12">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Company info needed</span></p>
+                              </div>
+                              <a href="./Risk.htm"><img src="images/img0013.jpg" id="Banner5" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:58;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture34" style="display:block;width:100%;height:261px;z-index:59">
+                                 <img src="images/a6.png" id="Picture34" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text13">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Indlela property is managing all of the Indlela Groups Properties from Renting Warehouses to giving you a well-deserved break at one of our guesthouses</span></p>
+                              </div>
+                              <a href="./Property.htm"><img src="images/img0014.jpg" id="Banner6" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:61;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture35" style="display:block;width:100%;height:194px;z-index:62">
+                                 <img src="images/a8.png" id="Picture35" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text14">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Company info needed</span></p>
+                              </div>
+                              <a href="./Construction.htm"><img src="images/img0015.jpg" id="Banner7" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:64;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture36" style="display:block;width:calc(100% - -90px);height:225px;z-index:65">
+                                 <img src="images/a9.png" id="Picture36" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text15">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Company info needed</span></p>
+                              </div>
+                              <a href="./Amend-debt.htm"><img src="images/img0016.jpg" id="Banner8" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:67;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture37" style="display:block;width:100%;height:187px;z-index:68">
+                                 <img src="images/a11.png" id="Picture37" alt="" srcset="">
+                              </picture>
+                              <textarea name="IndleaData" id="TextArea9" style="display:block;width:100%;;height:173px;z-index:69;" rows="6" cols="75" autofocus spellcheck="false">Indlela Data is a ICT Company Focusing on complex IT systems integration and Print Management and was the cornerstone for Indlela Group of companies.</textarea>
+                              <a href="http://www.nwet.co.za/" target="_blank"><img src="images/img0017.jpg" id="Banner9" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:70;"></a>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="carousel-innerframe">
+                              <picture id="wb_Picture38" style="display:block;width:100%;height:203px;z-index:71">
+                                 <img src="images/a10.png" id="Picture38" alt="" srcset="">
+                              </picture>
+                              <div id="wb_Text16">
+                                 <p style="color:#FFFFFF;"><span style="font-size:20px;line-height:22.5px;color:#FFFFFF;">Online Store</span></p>
+                              </div>
+                              <a href="./Online-Store.htm"><img src="images/img0018.jpg" id="Banner10" alt="View More..." style="border-width:0;display:inline-block;width:350px;height:50px;z-index:73;"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-item-left carousel-control" href="#Carousel3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-item-right carousel-control" href="#Carousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_welcome">
+      <div id="welcome">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_Heading1" style="display:inline-block;width:100%;z-index:75;">
+                     <h2 id="Heading1">We Care About Our Youth and Reaching Out With a Helping Hand!</h2>
+                  </div>
+                  <picture id="wb_Picture2" style="display:block;width:100%;height:167px;z-index:76">
+                     <img src="images/WeCare.png" id="Picture2" alt="" srcset="">
+                  </picture>
+                  <div id="wb_Heading5" style="display:inline-block;width:100%;z-index:77;">
+                     <h2 id="Heading5">Proud Sponsor</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <ul id="SlideShow2" style="overflow:hidden;z-index:78;">
+                  <li><img class="image" src="images/70582720_1118853368308678_1924398017239056384_n.jpg" alt="" title=""></li>
+                  <li><img class="image" src="images/18486146_652090928318260_3074948828491846310_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/20819634_696949863832366_7779818115436807730_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/21951018_710842325776453_8629480138630228593_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/28617257_778794692314549_8608826152615710071_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/28872885_778800635647288_6252673901012796350_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/36267249_832427713617913_99661516353044480_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/37335550_852304431630241_1461500405014855680_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/41709757_1911940215560777_7310270389194588160_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/61993587_1046895968837752_7979004648382005248_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/65902236_1066454113548604_930766314086072320_o.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/66797560_1079201988940483_7567343105486094336_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/66798496_1079201858940496_5627816791796350976_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/66830192_1079202025607146_3522133921594605568_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/67408951_1079279955599353_3455965840116023296_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/69517402_1110221852505163_7232369058358755328_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/70727092_1118853268308688_8896303989432254464_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/76962650_1180424355484912_7763424288287227904_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/82773541_1234328243427856_4175308059729461248_n.jpg" style="display:none;" alt="" title=""></li>
+                  <li><img class="image" src="images/84039782_1234160110111336_8383952783732113408_n.jpg" style="display:none;" alt="" title=""></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_attractions">
+      <div id="attractions">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_attractionsCarousel" style="">
+                     <div id="attractionsCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                           <li data-target="#attractionsCarousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#attractionsCarousel" data-slide-to="1"></li>
+                           <li data-target="#attractionsCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item frame-1 active">
+                              <div class="carousel-innerframe">
+                              </div>
+                           </div>
+                           <div class="carousel-item frame-2">
+                              <div class="carousel-innerframe">
+                              </div>
+                           </div>
+                           <div class="carousel-item frame-3">
+                              <div class="carousel-innerframe">
+                              </div>
+                           </div>
+                        </div>
+                        <a class="carousel-item-left carousel-control" href="#attractionsCarousel" role="button" data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-item-right carousel-control" href="#attractionsCarousel" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_Heading13" style="display:inline-block;width:100%;z-index:80;">
+                     <h2 id="Heading13">Certified reseller and Installers</h2>
+                  </div>
+                  <div id="wb_attractionsText1">
+                     <p style="font-size:15px;line-height:16.5px;color:#6D6D6D;"><span style="color:#6D6D6D;">Indlela Group is working closely with some of the world’s best manufacturing companies and keeping our clients up to date with latest and best innovative technologies, committed to evolving daily production and securing your future . </span></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_FlexContainer1">
+                  <div id="FlexContainer1">
+                     <picture id="wb_Picture12" style="display:block;width:96px;z-index:82">
+                        <img src="images/HP-Business-Partner.png" id="Picture12" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture22" style="display:block;width:90px;z-index:83">
+                        <img src="images/step-e.PNG" id="Picture22" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture27" style="display:block;width:42px;z-index:84">
+                        <img src="images/Microsoft Office icon 2012.png" id="Picture27" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture18" style="display:block;width:132px;z-index:85">
+                        <img src="images/microsoft-partner-.PNG" id="Picture18" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture23" style="display:block;width:191px;z-index:86">
+                        <img src="images/paradox-logo.png" id="Picture23" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture26" style="display:block;width:89px;z-index:87">
+                        <img src="images/2000px-Oki_logo.svg.png" id="Picture26" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture20" style="display:block;width:98px;z-index:88">
+                        <img src="images/sophos.PNG" id="Picture20" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture17" style="display:block;width:125px;z-index:89">
+                        <img src="images/juniper.png" id="Picture17" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture19" style="display:block;width:190px;z-index:90">
+                        <img src="images/Microsoft.png" id="Picture19" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture14" style="display:block;width:144px;z-index:91">
+                        <img src="images/hikvision_logo.PNG" id="Picture14" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture15" style="display:block;width:122px;z-index:92">
+                        <img src="images/indlela-eSset.png" id="Picture15" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture24" style="display:block;width:47px;z-index:93">
+                        <img src="images/1718a076e29822051df8bcf8b5ce1124-android-logo-by-vexels.png" id="Picture24" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture16" style="display:block;width:102px;z-index:94">
+                        <img src="images/Lenovo_Global_Corporate_Logo.png" id="Picture16" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture21" style="display:block;width:117px;z-index:95">
+                        <img src="images/toshiba-logo-4.png" id="Picture21" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture13" style="display:block;width:132px;z-index:96">
+                        <img src="images/samsung-300x59.png" id="Picture13" alt="" srcset="">
+                     </picture>
+                     <picture id="wb_Picture11" style="display:block;width:119px;z-index:97">
+                        <img src="images/dell-certified-partner.gif" id="Picture11" alt="" srcset="">
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contact">
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactHeading" style="display:inline-block;width:100%;z-index:99;">
+                  <h2 id="contactHeading">Looking for Business Solution?.....Get In Touch</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contactForm">
+      <div id="contactForm-divider-top">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 125" preserveAspectRatio="none">
+            <path class="divider-fill" style="opacity:0.5" d="m 0,81.659348 c 81.99918,0 88.739113,19.697032 141.99858,19.697032 46.67953,0 33.12967,-19.551122 85.12915,-19.551122 57.49943,0 75.87924,34.141512 143.87856,34.141512 55.99944,0 98.99901,-36.475982 149.49851,-36.475982 76.49923,0 77.32923,29.482322 131.49868,43.284832 55.99944,14.2694 72.82927,-44.169982 142.82857,-44.169982 41.37959,0 74.35926,28.033012 103.68897,28.033012 C 942.67057,106.61865 1000,75.093678 1000,75.093678 V 24.999998 H 0 Z"/>
+            <path class="divider-fill" d="m 0,81.988666 c 97.331947,-14.74806 115.33231,19.667594 176.67353,19.667594 53.33107,0 60.14121,-51.965834 122.64246,-51.965834 84.00168,0 116.35232,90.668944 200.004,73.034484 80.0016,-16.85492 86.00172,-63.205964 153.34306,-63.205964 49.661,0 86.65174,33.00405 124.00248,33.00405 33.33067,0 51.27103,-31.16054 78.00156,-31.16054 43.93088,0 51.28103,31.0868 97.90196,28.83245 C 976.99954,89.015066 1000,74.267006 1000,74.267006 V 5.8499091e-6 H 0 Z"/>
+         </svg></div>
+      <div id="contactForm">
+         <div class="col-1">
+            <div id="wb_contactText3">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="font-size:27px;line-height:30px;font-weight:bold;color:#4F4F4F;">Contact Us</span></p>
+            </div>
+            <div id="wb_IconFont1" style="display:inline-block;width:46px;height:29px;text-align:center;z-index:101;">
+               <div id="IconFont1"><i class="material-icons">&#xe0af;</i></div>
+            </div>
+            <div id="wb_Text3">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="color:#4F4F4F;">Indlela Group &amp; Indlela Data (Pty) Ltd</span></p>
+            </div>
+            <div id="wb_IconFont2" style="display:inline-block;width:46px;height:29px;text-align:center;z-index:103;">
+               <div id="IconFont2"><i class="material-icons">&#xe88a;</i></div>
+            </div>
+            <div id="wb_Text4">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="color:#4F4F4F;">14 Gould Street Wilkoppies Klerkdsdorp 2751</span></p>
+            </div>
+            <div id="wb_IconFont3" style="display:inline-block;width:46px;height:29px;text-align:center;z-index:105;">
+               <div id="IconFont3"><i class="material-icons">&#xe61d;</i></div>
+            </div>
+            <div id="wb_Text5">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="color:#4F4F4F;">018 462 1256</span></p>
+            </div>
+            <div id="wb_IconFont5" style="display:inline-block;width:46px;height:29px;text-align:center;z-index:107;">
+               <div id="IconFont5"><i class="material-icons">&#xe158;</i></div>
+            </div>
+            <div id="wb_Text6">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="color:#4F4F4F;">info@indlelagroup.com</span></p>
+            </div>
+            <div id="wb_IconFont4" style="display:inline-block;width:46px;height:29px;text-align:center;z-index:109;">
+               <div id="IconFont4"><i class="material-icons">&#xe80b;</i></div>
+            </div>
+            <div id="wb_Text7">
+               <p style="font-size:13px;line-height:16px;color:#4F4F4F;"><span style="color:#4F4F4F;">https://indlelagroup.com</span></p>
+            </div>
+         </div>
+         <div class="col-2">
+            <div id="Html2" style="display:inline-block;width:320px;height:353px;z-index:111">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.696458704882!2d26.664261314549375!3d-26.84960519704081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e96f1232f71da3d%3A0xf44bc100a7a68db6!2s14%20Gould%20St%2C%20Irenepark%2C%20Klerksdorp%2C%202571!5e0!3m2!1sen!2sza!4v1585422314206!5m2!1sen!2sza" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+         </div>
+         <div class="col-3">
+            <div id="wb_LayoutGrid9">
+               <form name="Contact_Us" method="post" action="https://script.google.com/macros/s/AKfycbx9ssNae6K_2fdm1QWQxlGVvFOZvODg085KfnOqDWUzBDwqGA4I/exec" enctype="multipart/form-data" id="LayoutGrid9">
+                  <div class="row">
+                     <div class="col-1">
+                        <input type="text" id="Editbox1" style="display:block;width:100%;height:25px;z-index:112;" name="Full Name" value="" maxlength="20" tabindex="1" spellcheck="false" placeholder="Full Name">
+                        <input type="text" id="Editbox3" style="display:block;width:100%;height:25px;z-index:113;" name="eMail" value="" maxlength="30" tabindex="2" spellcheck="false" placeholder="eMail">
+                        <input type="text" id="Editbox2" style="display:block;width:100%;height:25px;z-index:114;" name="Phone" value="" maxlength="12" tabindex="3" spellcheck="false" placeholder="Phone : 000 000 0000">
+                        <input type="text" id="Editbox4" style="display:block;width:100%;height:71px;z-index:115;" name="Short Description" value="" maxlength="200" tabindex="4" spellcheck="true" placeholder="Short Mesaage">
+                        <input type="submit" id="Button2" name="" value="Send" style="display:inline-block;width:96px;height:25px;z-index:116;">
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div id="Html3" style="display:inline-block;width:230px;height:100px;z-index:118">
+<!-- AddToAny BEGIN -->
+               <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://indlelagroup.com/" data-a2a-title="indlelagroup">
+                  <a class="a2a_button_facebook"></a>
+                  <a class="a2a_button_email"></a>
+                  <a class="a2a_button_linkedin"></a>
+               </div>
+               <script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END --></div>
+         </div>
+      </div>
+   </div>
+   <div id="StickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:186;" data-250-start="opacity:1;" data-start="opacity:0;">
+      <div id="wb_up-arrow" style="position:absolute;left:9px;top:9px;width:24px;height:24px;text-align:center;z-index:119;">
+         <a href="#navigation"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+   </div>
+   <div id="wb_footer" style="z-index:10000 !important;">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-2">
+               <div id="wb_footerText">
+                  <p style="font-size:12px;line-height:13.5px;color:#FFFFFF;"><span style="background-color:#222222;color:#FFFFFF;">C</span><span style="background-color:#222222;color:#FFFFFF;">opyright </span><span style="background-color:#222222;color:#FFFFFF;">©</span><span style="background-color:#222222;color:#FFFFFF;"> 2020 BuddySoft Systems</span></p>
+               </div>
+            </div>
+            <div class="col-3">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Heading2" style="position:absolute;left:694px;top:1494px;width:1620px;height:32px;z-index:189;">
+      <h2 id="Heading2">How To Plan Your Trip</h2>
+   </div>
+   <div id="wb_IconFont6" style="position:absolute;left:992px;top:4477px;width:32px;height:17px;text-align:center;z-index:190;">
+      <div id="IconFont6"><i class="material-icons">&#xe80d;</i></div>
+   </div>
+   <picture id="wb_Picture25" style="position:absolute;left:204px;top:2601px;width:7px;height:1px;z-index:191">
+      <img src="images/2000px-Oki_logo.svg.png" id="Picture25" alt="" srcset="">
+   </picture>
+</body>
+</html>
