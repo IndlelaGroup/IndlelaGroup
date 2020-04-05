@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(..Background-Trans1.JPG);
+   background-image: url(Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body
    border: 1px solid #808080;
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(..Index_Button6_bkgrnd.png);
+   background-image: url(Index_Button6_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #FFFFFF;
@@ -252,7 +252,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..Index_LayoutGrid2_bkgrnd.png);
+   background-image: url(Index_LayoutGrid2_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -324,7 +324,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..Index_LayoutGrid5_bkgrnd.png);
+   background-image: url(Index_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -411,7 +411,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..Index_LayoutGrid4_bkgrnd.png);
+   background-image: url(Index_LayoutGrid4_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -484,7 +484,7 @@ body
    width: 100%;
    height: 50vh;
    background-color: transparent;
-   background-image: url(..Index_LayoutGrid1_bkgrnd.png);
+   background-image: url(Index_LayoutGrid1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -581,7 +581,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..delft_banner.jpg);
+   background-image: url(delft_banner.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -902,7 +902,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..delft1.jpg);
+   background-image: url(delft1.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -939,7 +939,7 @@ body
 #welcome > .row > .col-1
 {
    background-color: transparent;
-   background-image: url(..Index_welcome-col1_bkgrnd.png);
+   background-image: url(Index_welcome-col1_bkgrnd.png);
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
@@ -1143,7 +1143,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(..Index_contact_bkgrnd.png);
+   background-image: url(Index_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -1478,11 +1478,11 @@ body
    text-indent: -999px;
    background-repeat: no-repeat;
    background-position: center center;
-   background-image: url(..attractionsCarousel-default.png);
+   background-image: url(attractionsCarousel-default.png);
 }
 #attractionsCarousel .carousel-indicators .active
 {
-   background-image: url(..attractionsCarousel-active.png);
+   background-image: url(attractionsCarousel-active.png);
 }
 #attractionsCarousel .carousel-control
 {
@@ -1602,7 +1602,7 @@ body
 #attractionsCarousel .frame-1
 {
    background-color: transparent;
-   background-image: url(..Logo-black.jpg);
+   background-image: url(Logo-black.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
@@ -1610,7 +1610,7 @@ body
 #attractionsCarousel .frame-2
 {
    background-color: transparent;
-   background-image: url(..innovation-1080x675.jpg);
+   background-image: url(innovation-1080x675.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
@@ -1618,7 +1618,7 @@ body
 #attractionsCarousel .frame-3
 {
    background-color: transparent;
-   background-image: url(..innovation-imperative-100694176-large.jpg);
+   background-image: url(innovation-imperative-100694176-large.jpg);
    background-repeat: repeat;
    background-position: left top;
    background-size: 100% 100%;
@@ -2008,7 +2008,7 @@ body
 {
    border-color: rgba(139,69,19,0.00);
    background-color: transparent;
-   background-image: url(..Index_ThemeableMenu1_bkgrnd.png);
+   background-image: url(Index_ThemeableMenu1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -3743,11 +3743,11 @@ body
    text-indent: -999px;
    background-repeat: no-repeat;
    background-position: center center;
-   background-image: url(..Carousel3-default.png);
+   background-image: url(Carousel3-default.png);
 }
 #Carousel3 .carousel-indicators .active
 {
-   background-image: url(..Carousel3-active.png);
+   background-image: url(Carousel3-active.png);
 }
 #Carousel3 .carousel-control
 {
@@ -4094,7 +4094,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(..Index_Button5_bkgrnd.png);
+   background-image: url(Index_Button5_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #000000;
@@ -4203,7 +4203,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(..Index_Button2_bkgrnd.png);
+   background-image: url(Index_Button2_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #FFFFFF;
