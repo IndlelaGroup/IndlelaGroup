@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(../images/Background-Trans1.JPG);
+   background-image: url(..Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Risk_LayoutGrid5_bkgrnd.png);
+   background-image: url(..Risk_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -180,7 +180,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Risk_LayoutGrid1_bkgrnd.png);
+   background-image: url(..Risk_LayoutGrid1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -253,7 +253,7 @@ body
    width: 100%;
    height: 50vh;
    background-color: transparent;
-   background-image: url(../images/Risk_LayoutGrid3_bkgrnd.png);
+   background-image: url(..Risk_LayoutGrid3_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -353,7 +353,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Risk_LayoutGrid2_bkgrnd.png);
+   background-image: url(..Risk_LayoutGrid2_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -425,7 +425,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Risk_contact_bkgrnd.png);
+   background-image: url(..Risk_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -1169,7 +1169,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Risk_Button2_bkgrnd.png);
+   background-image: url(..Risk_Button2_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #FFFFFF;
@@ -1355,7 +1355,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Risk_Button5_bkgrnd.png);
+   background-image: url(..Risk_Button5_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #000000;
@@ -1491,7 +1491,7 @@ body
    border: 1px solid #808080;
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Risk_Button6_bkgrnd.png);
+   background-image: url(..Risk_Button6_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #FFFFFF;
@@ -1605,7 +1605,7 @@ body
 {
    border-color: rgba(139,69,19,0.00);
    background-color: transparent;
-   background-image: url(../images/Risk_ThemeableMenu1_bkgrnd.png);
+   background-image: url(..Risk_ThemeableMenu1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
