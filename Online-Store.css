@@ -1,7 +1,7 @@
 body
 {
-   background-color: #B8860B;
-   background-image: url(../images/Background-Trans1.JPG);
+   background-color: #FFFFFF;
+   background-image: url(Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Online-Store_LayoutGrid2_bkgrnd.png);
+   background-image: url(Online-Store_LayoutGrid2_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -273,7 +273,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Online-Store_LayoutGrid5_bkgrnd.png);
+   background-image: url(Online-Store_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -360,7 +360,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Online-Store_LayoutGrid4_bkgrnd.png);
+   background-image: url(Online-Store_LayoutGrid4_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -433,7 +433,7 @@ body
    width: 100%;
    height: 50vh;
    background-color: transparent;
-   background-image: url(../images/Online-Store_LayoutGrid1_bkgrnd.png);
+   background-image: url(Online-Store_LayoutGrid1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -510,7 +510,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/delft_banner.jpg);
+   background-image: url(delft_banner.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -665,7 +665,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Online-Store_contact_bkgrnd.png);
+   background-image: url(Online-Store_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -2103,7 +2103,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Online-Store_Button5_bkgrnd.png);
+   background-image: url(Online-Store_Button5_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #000000;
@@ -2217,7 +2217,7 @@ body
 {
    border-color: rgba(139,69,19,0.00);
    background-color: transparent;
-   background-image: url(../images/Online-Store_ThemeableMenu1_bkgrnd.png);
+   background-image: url(Online-Store_ThemeableMenu1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
