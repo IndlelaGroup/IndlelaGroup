@@ -1,7 +1,7 @@
 body
 {
-   background-color: #B8860B;
-   background-image: url(../images/Background-Trans1.JPG);
+   background-color: #FFFFFF;
+   background-image: url(Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Amend-debt_LayoutGrid2_bkgrnd.png);
+   background-image: url(Amend-debt_LayoutGrid2_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -273,7 +273,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Amend-debt_LayoutGrid5_bkgrnd.png);
+   background-image: url(Amend-debt_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -360,7 +360,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Amend-debt_LayoutGrid4_bkgrnd.png);
+   background-image: url(Amend-debt_LayoutGrid4_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -570,7 +570,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Amend-debt_contact_bkgrnd.png);
+   background-image: url(Amend-debt_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -1577,7 +1577,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Amend-debt_Button5_bkgrnd.png);
+   background-image: url(Amend-debt_Button5_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #000000;
@@ -1676,7 +1676,7 @@ body
 {
    border-color: rgba(139,69,19,0.00);
    background-color: transparent;
-   background-image: url(../images/Amend-debt_ThemeableMenu1_bkgrnd.png);
+   background-image: url(Amend-debt_ThemeableMenu1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
