@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(../images/Background-Trans1.JPG);
+   background-image: url(Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Finance_LayoutGrid2_bkgrnd.png);
+   background-image: url(Finance_LayoutGrid2_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -273,7 +273,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Finance_LayoutGrid5_bkgrnd.png);
+   background-image: url(Finance_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -360,7 +360,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Finance_LayoutGrid4_bkgrnd.png);
+   background-image: url(Finance_LayoutGrid4_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -433,7 +433,7 @@ body
    width: 100%;
    height: 50vh;
    background-color: transparent;
-   background-image: url(../images/Freedom.jpg);
+   background-image: url(Freedom.jpg);
    background-repeat: repeat-y;
    background-position: left top;
    border: 0px solid transparent;
@@ -526,7 +526,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/delft_banner.jpg);
+   background-image: url(delft_banner.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -819,7 +819,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Finance_contact_bkgrnd.png);
+   background-image: url(Finance_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -2356,7 +2356,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Finance_Button5_bkgrnd.png);
+   background-image: url(Finance_Button5_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #000000;
@@ -2423,82 +2423,6 @@ body
    text-align: left;
    text-shadow: 5px 3px 11px rgba(245,245,245,0.50);
 }
-#ThemeableMenu1, #ThemeableMenu1 .ui-menu-item a
-{
-   font-family: Austin;
-   font-weight: normal;
-   font-size: 15px;
-   text-decoration: none;
-}
-#ThemeableMenu1 .ui-menu-item a
-{
-   color: #333333;
-}
-#ThemeableMenu1 > li
-{
-   display: inline-block;
-   list-style: none;
-   width: auto;
-}
-#ThemeableMenu1 .ui-menu-item-wrapper
-{
-   line-height: 17px;
-   padding: 13px 13px 13px 13px;
-}
-#ThemeableMenu1 > .ui-menu-item-wrapper
-{
-   padding: 13px 29px 13px 13px;
-}
-#ThemeableMenu1 ul
-{
-   width: 197px;
-}
-#wb_ThemeableMenu1 .ui-widget-content
-{
-   border-color: rgba(139,69,19,0.00);
-   background-color: transparent;
-   background-image: url(../images/Finance_ThemeableMenu1_bkgrnd.png);
-   background-repeat: repeat-y;
-   background-position: left top;
-   background-size: 100% 100%;
-   color: #333333;
-}
-#ThemeableMenu1 .ui-state-active
-{
-   border-color: rgba(139,69,19,1.00);
-   background-color: #8B4513;
-   background-image: none;
-}
-#ThemeableMenu1 .ui-state-active a
-{
-   color: #FFFFFF;
-}
-#ThemeableMenu1
-{
-   margin: 0px 0px -2px -5px;
-}
-#ThemeableMenu1 .ui-arrow
-{
-   background-image: none;
-   text-indent: 0;
-   display: inline-block;
-   font-family: FontAwesome;
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-#ThemeableMenu1 .ui-arrow:before
-{
-   content: "\f107";
-}
-#ThemeableMenu1 i
-{
-   font-size: 16px;
-   position: absolute;
-   left: 13px;
-   top: 13px;
-   width: 16px;
-}
 #wb_Marquee1 
 {
    background-color: transparent;
@@ -2559,4 +2483,80 @@ body
    {
    transform: translateX(-100%);
    }
+}
+#ThemeableMenu1, #ThemeableMenu1 .ui-menu-item a
+{
+   font-family: Austin;
+   font-weight: normal;
+   font-size: 15px;
+   text-decoration: none;
+}
+#ThemeableMenu1 .ui-menu-item a
+{
+   color: #333333;
+}
+#ThemeableMenu1 > li
+{
+   display: inline-block;
+   list-style: none;
+   width: auto;
+}
+#ThemeableMenu1 .ui-menu-item-wrapper
+{
+   line-height: 17px;
+   padding: 13px 13px 13px 13px;
+}
+#ThemeableMenu1 > .ui-menu-item-wrapper
+{
+   padding: 13px 29px 13px 13px;
+}
+#ThemeableMenu1 ul
+{
+   width: 197px;
+}
+#wb_ThemeableMenu1 .ui-widget-content
+{
+   border-color: rgba(139,69,19,0.00);
+   background-color: transparent;
+   background-image: url(Finance_ThemeableMenu1_bkgrnd.png);
+   background-repeat: repeat-y;
+   background-position: left top;
+   background-size: 100% 100%;
+   color: #333333;
+}
+#ThemeableMenu1 .ui-state-active
+{
+   border-color: rgba(139,69,19,1.00);
+   background-color: #8B4513;
+   background-image: none;
+}
+#ThemeableMenu1 .ui-state-active a
+{
+   color: #FFFFFF;
+}
+#ThemeableMenu1
+{
+   margin: 0px 0px -1px -5px;
+}
+#ThemeableMenu1 .ui-arrow
+{
+   background-image: none;
+   text-indent: 0;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+#ThemeableMenu1 .ui-arrow:before
+{
+   content: "\f107";
+}
+#ThemeableMenu1 i
+{
+   font-size: 16px;
+   position: absolute;
+   left: 13px;
+   top: 13px;
+   width: 16px;
 }
