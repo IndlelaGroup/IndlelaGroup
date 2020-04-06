@@ -1,7 +1,7 @@
 body
 {
-   background-color: #B8860B;
-   background-image: url(../images/Background-Trans1.JPG);
+   background-color: #FFFFFF;
+   background-image: url(Background-Trans1.JPG);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body
    color: #000000;
    font-family: Berylium;
    font-weight: bold;
-   font-size: 27px;
+   font-size: 24px;
    margin: 0;
    text-align: left;
    text-shadow: 4px 3px 4px rgba(0,0,0,0.50);
@@ -198,7 +198,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_LayoutGrid5_bkgrnd.png);
+   background-image: url(Log-a-Call_LayoutGrid5_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -285,7 +285,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_LayoutGrid4_bkgrnd.png);
+   background-image: url(Log-a-Call_LayoutGrid4_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
@@ -467,7 +467,7 @@ body
 #LayoutGrid1 > .row > .col-2
 {
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_LayoutGrid1-col2_bkgrnd.png);
+   background-image: url(Log-a-Call_LayoutGrid1-col2_bkgrnd.png);
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
@@ -582,7 +582,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_contact_bkgrnd.png);
+   background-image: url(Log-a-Call_contact_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    border: 0px solid #CCCCCC;
@@ -1924,7 +1924,7 @@ body
    border: 1px solid rgba(105,105,105,0.60);
    border-radius: 4px;
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_Button2_bkgrnd.png);
+   background-image: url(Log-a-Call_Button2_bkgrnd.png);
    background-repeat: repeat-x;
    background-position: left top;
    color: #FFFFFF;
@@ -2755,7 +2755,7 @@ body
 {
    border-color: rgba(139,69,19,0.00);
    background-color: transparent;
-   background-image: url(../images/Log-a-Call_ThemeableMenu1_bkgrnd.png);
+   background-image: url(Log-a-Call_ThemeableMenu1_bkgrnd.png);
    background-repeat: repeat-y;
    background-position: left top;
    background-size: 100% 100%;
